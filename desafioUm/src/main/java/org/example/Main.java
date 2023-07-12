@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("Digite os números: ");
         Scanner number = new Scanner(System.in);
 
         int value = number.nextInt();
@@ -30,6 +31,8 @@ public class Main {
         for (int valor : values) {
             System.out.println(valor);
         }
+
+        number.close();
 
     }
 }
